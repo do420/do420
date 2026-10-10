@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="790" viewBox="0 0 1000 790">
+<style>
+.paper{font-family:"Times New Roman",Times,serif}
+.sans{font-family:Arial,sans-serif}
+.draw{stroke-dasharray:1600;stroke-dashoffset:1600;animation:draw 1.8s ease-out forwards}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow .8s ease-out forwards}
+.fade{animation:fade .45s ease-out both}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes fade{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:translateX(0)}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.draw,.grow,.fade,.pulse{animation:none!important}.draw{stroke-dashoffset:0}.grow{transform:none!important}.fade{opacity:1}}
+</style>
+<rect width="1000" height="790" fill="#fffefa"/>
+<rect x="22" y="18" width="956" height="754" fill="none" stroke="#bfc3c8"/>
+<line x1="48" y1="54" x2="952" y2="54" stroke="#111" stroke-width="1.25"/>
+<text x="48" y="46" font-family="Arial,sans-serif" font-size="11.5px" font-weight="700" fill="#5f6469" text-anchor="start">DO420-OSS · PROFILE EDITION</text>
+<text x="952" y="46" font-family="Arial,sans-serif" font-size="11.5px" font-weight="700" fill="#5f6469" text-anchor="end">PREPRINT</text>
+<text x="500" y="85" font-family="Times New Roman, Times, serif" font-size="26.5px" font-weight="700" fill="#111" text-anchor="middle">Longitudinal Analysis of Deniz Özcan&#x27;s Open-Source Software Contributions</text>
+<text x="500" y="107" font-family="Times New Roman, Times, serif" font-size="17px" font-weight="400" fill="#222" text-anchor="middle">Deniz Özcan  ·  Research Engineer</text>
+<text x="500" y="125" font-family="Arial,sans-serif" font-size="12.0px" font-weight="400" fill="#62676b" text-anchor="middle">Observed 2026-10-10  ·  public GitHub data</text>
+<text x="48" y="153" font-family="Arial,sans-serif" font-size="11.5px" font-weight="700" fill="#111" text-anchor="start">ABSTRACT</text>
+<text x="48" y="169" font-family="Times New Roman, Times, serif" font-size="13.0px" font-weight="400" fill="#2c2f32" text-anchor="start">This profile summarizes public pull-request activity with emphasis on upstream participation,</text>
+<text x="48" y="183" font-family="Times New Roman, Times, serif" font-size="13.0px" font-weight="400" fill="#2c2f32" text-anchor="start">recent technical focus, and activity over time. All displayed quantities are regenerated from GitHub.</text>
+<line x1="48" y1="197" x2="952" y2="197" stroke="#c9cdd1"/>
+<rect x="48" y="213" width="169" height="56" fill="#fbfbfa" stroke="#cbd0d4"/>
+<text x="60" y="239" font-family="Times New Roman, Times, serif" font-size="26px" font-weight="700" fill="#111" text-anchor="start">14</text>
+<text x="60" y="256" font-family="Arial,sans-serif" font-size="11.5px" font-weight="700" fill="#646a6f" text-anchor="start">PUBLIC PRs</text>
+<rect x="229" y="213" width="169" height="56" fill="#fbfbfa" stroke="#cbd0d4"/>
+<text x="241" y="239" font-family="Times New Roman, Times, serif" font-size="26px" font-weight="700" fill="#111" text-anchor="start">6</text>
+<text x="241" y="256" font-family="Arial,sans-serif" font-size="11.5px" font-weight="700" fill="#646a6f" text-anchor="start">OPEN PRs</text>
+<rect x="410" y="213" width="169" height="56" fill="#fbfbfa" stroke="#cbd0d4"/>
+<text x="422" y="239" font-family="Times New Roman, Times, serif" font-size="26px" font-weight="700" fill="#111" text-anchor="start">3</text>
+<text x="422" y="256" font-family="Arial,sans-serif" font-size="11.5px" font-weight="700" fill="#646a6f" text-anchor="start">PUBLIC ISSUES</text>
+<rect x="591" y="213" width="169" height="56" fill="#fbfbfa" stroke="#cbd0d4"/>
+<text x="603" y="239" font-family="Times New Roman, Times, serif" font-size="26px" font-weight="700" fill="#111" text-anchor="start">1</text>
+<text x="603" y="256" font-family="Arial,sans-serif" font-size="11.5px" font-weight="700" fill="#646a6f" text-anchor="start">MERGED · MAJOR OSS</text>
+<rect x="772" y="213" width="180" height="56" fill="#fbfbfa" stroke="#cbd0d4"/>
+<text x="784" y="239" font-family="Times New Roman, Times, serif" font-size="26px" font-weight="700" fill="#111" text-anchor="start">3</text>
+<text x="784" y="256" font-family="Arial,sans-serif" font-size="11.5px" font-weight="700" fill="#646a6f" text-anchor="start">MAJOR OSS REPOS</text>
+<text x="48" y="300" font-family="Times New Roman, Times, serif" font-size="13.5px" font-weight="700" fill="#111" text-anchor="start">1. CONTRIBUTION TRAJECTORY</text>
+<text x="48" y="318" font-family="Times New Roman, Times, serif" font-size="12.0px" font-weight="400" fill="#454a4e" text-anchor="start">Weekly count of public PRs in the observed corpus.</text>
+<rect x="62" y="335" width="532" height="118" fill="#fcfcfb" stroke="#d4d7da"/>
+<line x1="78" y1="439" x2="578" y2="439" stroke="#222"/>
+<line x1="78" y1="365" x2="578" y2="365" stroke="#e2e4e6"/>
+<line x1="78" y1="402" x2="578" y2="402" stroke="#e2e4e6"/>
+<path d="M 84.0 365.0 C 164.0 365.0, 164.0 365.0, 244.0 365.0 C 324.0 365.0, 324.0 402.0, 404.0 402.0 C 484.0 402.0, 484.0 365.0, 564.0 365.0" fill="none" stroke="#3859c8" stroke-width="3.4" class="draw"/>
+<circle cx="564.0" cy="365.0" r="4.6" fill="#cb7730" class="pulse"/>
+<text x="48" y="468" font-family="Times New Roman, Times, serif" font-size="11.0px" font-weight="400" fill="#4e5358" text-anchor="start">Figure 1. Weekly public pull-request activity.</text>
+<text x="48" y="480" font-family="Times New Roman, Times, serif" font-size="10.8px" font-weight="400" fill="#6a6f73" text-anchor="start">The trajectory reflects contribution timing, not code volume or review quality.</text>
+<text x="644" y="300" font-family="Times New Roman, Times, serif" font-size="13.5px" font-weight="700" fill="#111" text-anchor="start">2. METHOD</text>
+<text x="644" y="318" font-family="Times New Roman, Times, serif" font-size="12.0px" font-weight="400" fill="#454a4e" text-anchor="start">Public PRs are grouped by repository and weighted by recency</text>
+<text x="644" y="331" font-family="Times New Roman, Times, serif" font-size="12.0px" font-weight="400" fill="#454a4e" text-anchor="start">for the topical summary below.</text>
+<text x="798.0" y="357" font-family="Times New Roman, Times, serif" font-size="15.5px" font-weight="400" fill="#111" text-anchor="middle">Sₜ = Σₑ∈E exp(−λΔtₑ) · Iₜ(e)</text>
+<text x="798.0" y="376" font-family="Arial,sans-serif" font-size="11.0px" font-weight="400" fill="#656b70" text-anchor="middle">E: observed contributions   ·   t: topic   ·   Iₜ(e): indicator</text>
+<text x="798.0" y="388" font-family="Arial,sans-serif" font-size="11.0px" font-weight="400" fill="#656b70" text-anchor="middle">Δtₑ: contribution age   ·   λ: decay rate   ·   Sₜ: topic score</text>
+<text x="644" y="414" font-family="Times New Roman, Times, serif" font-size="11.5px" font-weight="400" fill="#4c5156" text-anchor="start">Higher Sₜ indicates stronger recent evidence for topic t.</text>
+<text x="48" y="515" font-family="Times New Roman, Times, serif" font-size="13.5px" font-weight="700" fill="#111" text-anchor="start">3. TECHNICAL FOCUS</text>
+<text x="48" y="533" font-family="Times New Roman, Times, serif" font-size="12.0px" font-weight="400" fill="#454a4e" text-anchor="start">Specific recurring implementation themes in Deniz Özcan&#x27;s public contributions.</text>
+<text x="48" y="566" font-family="Arial,sans-serif" font-size="11.5px" font-weight="400" fill="#3f4449" text-anchor="start">Accelerator portability</text>
+<rect x="213" y="553" width="345" height="18" fill="#e9ecef"/>
+<rect x="213" y="553" width="350.0" height="18" fill="#3859c8" class="grow" style="animation-delay:0.00s"/>
+<text x="48" y="595" font-family="Arial,sans-serif" font-size="11.5px" font-weight="400" fill="#3f4449" text-anchor="start">PyTorch dispatch</text>
+<rect x="213" y="582" width="345" height="18" fill="#e9ecef"/>
+<rect x="213" y="582" width="108.8" height="18" fill="#1496a5" class="grow" style="animation-delay:0.07s"/>
+<text x="48" y="624" font-family="Arial,sans-serif" font-size="11.5px" font-weight="400" fill="#3f4449" text-anchor="start">vLLM runtime &amp; KV cache</text>
+<rect x="213" y="611" width="345" height="18" fill="#e9ecef"/>
+<rect x="213" y="611" width="89.8" height="18" fill="#7254c9" class="grow" style="animation-delay:0.14s"/>
+<text x="48" y="653" font-family="Arial,sans-serif" font-size="11.5px" font-weight="400" fill="#3f4449" text-anchor="start">Dependency &amp; build isolation</text>
+<rect x="213" y="640" width="345" height="18" fill="#e9ecef"/>
+<rect x="213" y="640" width="66.2" height="18" fill="#cb7730" class="grow" style="animation-delay:0.21s"/>
+<text x="48" y="694" font-family="Times New Roman, Times, serif" font-size="11.0px" font-weight="400" fill="#4e5358" text-anchor="start">Figure 2. Relative signal across specific implementation themes.</text>
+<text x="644" y="468" font-family="Times New Roman, Times, serif" font-size="13.5px" font-weight="700" fill="#111" text-anchor="start">4. SELECTED OBSERVATION</text>
+<text x="644" y="486" font-family="Times New Roman, Times, serif" font-size="11.0px" font-weight="400" fill="#454a4e" text-anchor="start">One upstream contribution, shown in the same visual language as the paper.</text>
+<g class="fade"><rect x="644" y="501" width="308" height="78" fill="#fbfbfa" stroke="#d2d5d8"/><rect x="644" y="501" width="5" height="78" fill="#3859c8"/><text x="658" y="521" font-family="Arial,sans-serif" font-size="9.2px" font-weight="700" fill="#3859c8" text-anchor="start">pytorch/pytorch #193943</text><text x="658" y="546" font-family="Times New Roman, Times, serif" font-size="10.6px" font-weight="400" fill="#202327" text-anchor="start">[sparse] Fix hardcoded &quot;cuda&quot; device in semi-st…</text><text x="658" y="567" font-family="Arial,sans-serif" font-size="10.0px" font-weight="700" fill="#5c6267" text-anchor="start">MERGED</text></g>
+<line x1="48" y1="707" x2="952" y2="707" stroke="#c9cdd1"/>
+<text x="48" y="727" font-family="Arial,sans-serif" font-size="10.0px" font-weight="700" fill="#111" text-anchor="start">Notes</text>
+<text x="48" y="742" font-family="Times New Roman, Times, serif" font-size="10.5px" font-weight="400" fill="#5d6267" text-anchor="start">Public activity only. Major OSS repositories use a current ≥1,000-star threshold.</text>
+<text x="48" y="755" font-family="Times New Roman, Times, serif" font-size="10.5px" font-weight="400" fill="#5d6267" text-anchor="start">The figure is regenerated automatically from GitHub activity.</text>
+<text x="952" y="727" font-family="Arial,sans-serif" font-size="10.5px" font-weight="700" fill="#111" text-anchor="end">DO420</text>
+<text x="952" y="742" font-family="Arial,sans-serif" font-size="10.5px" font-weight="400" fill="#5d6267" text-anchor="end">research profile</text>
+</svg>
